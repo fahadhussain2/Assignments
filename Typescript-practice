@@ -1,5 +1,0 @@
-let myType={id:1 , name:"fahad"}
-myType={id:1, name:"hussain"};
-myType={id:"1" , name2:"hussain"};
-myType={id:1 , name:"fahad" , gender:"male"}; //ducktyping
-

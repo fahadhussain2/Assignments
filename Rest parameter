@@ -1,0 +1,21 @@
+//THE SUM OF REST OF THE PARAMETERS
+
+ var sum;
+
+function check(firstno:number , secondno:number , ...remainpara:number[]):number {
+    var total=0;
+   
+    for (var i = 0; i < remainpara.length; i++) {
+       total += remainpara[i];
+        
+    }
+    sum=total+firstno+secondno;
+     return sum;
+}
+
+var res=check(5,10,12,12,15,15,46);
+console.log(res);
+
+
+
+

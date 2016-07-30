@@ -1,0 +1,34 @@
+
+body
+{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+#addlist
+{
+    border: 2px solid black;
+    margin-top: 10px;
+    }
+     
+#addlist p,h2
+{
+    padding-left:5%;
+    }
+
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+#addlist:hover
+{
+  
+    background-color: skyblue;
+    transition:all 0.5s ease;
+}
